@@ -65,3 +65,51 @@ The following analytical questions were explored:
 
 These analyses helped uncover patterns in healthcare costs, identify high-cost providers and procedures, and highlight regional differences in Medicare spending and patient financial burden.
 ## 📈 Dashboard
+<img src='https://github.com/TAHSIN78425/images/blob/main/Healthcare%20Dashboard.png'/>
+
+## 📊 Key Performance Indicators (KPIs)
+
+The dashboard tracks several important healthcare cost metrics to evaluate hospital charges and Medicare spending.
+
+- 💰 **Total Medicare Payment** – Total amount paid by Medicare for inpatient hospital services.
+- 🧾 **Average Patient Paid Amount** – Average out-of-pocket amount paid by patients.
+- 💊 **Most Expensive DRG** – The diagnosis-related group with the highest submitted charge.
+- 🏥 **Most Expensive Provider** – The hospital with the highest submitted charges.
+- 🗺 **State with Highest Medicare Payment** – The state receiving the largest total Medicare payments.
+
+---
+
+## 📈 Visualizations
+
+The dashboard includes the following visualizations to analyze healthcare cost patterns:
+
+- **Total Submitted Charge by Provider Organization Name** – Shows which hospitals submit the highest charges.
+- **Total Discharges by Provider Organization** – Displays patient volume handled by each hospital.
+- **State Performance by Medicare Payment** – Compares Medicare spending across different states.
+- **Ratio of Payment from Medicare vs Patient by Provider Organization** – Highlights the share of costs paid by Medicare and patients.
+- **Top 5 DRGs by Cost** – Identifies the most expensive procedures in the dataset.
+## 💡 Key Findings
+
+The analysis of Medicare inpatient hospital data revealed several important insights:
+
+- **High-Cost DRGs:** Certain DRG procedures have significantly higher submitted charges, indicating complex and expensive treatments.
+
+- **Provider Cost Concentration:** A small number of providers account for the highest total submitted charges, suggesting that healthcare costs are concentrated among a few large hospitals.
+
+- **Regional Differences in Medicare Spending:** Some states receive substantially higher Medicare payments, indicating regional variations in healthcare utilization and cost.
+
+- **Patient Financial Burden:** Patient out-of-pocket payments vary across states, highlighting differences in healthcare affordability.
+
+- **High Patient Volume Providers:** Providers with the highest number of discharges often contribute significantly to total Medicare spending due to large patient volumes.
+
+- **Gap Between Charges and Payments:** There is a noticeable difference between hospital submitted charges and the actual amount paid by Medicare, showing how reimbursement systems differ from hospital billing.
+
+## 📌Recommendations
+
+- Monitor hospitals with high submitted charges to improve cost transparency.
+
+- Evaluate high-cost DRGs to identify opportunities for cost control.
+
+- Investigate regions with high patient payment burdens.
+
+- Improve pricing strategies where charges greatly exceed reimbursements.
