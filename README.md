@@ -24,3 +24,20 @@ It provides detailed information about inpatient hospital services, including pr
 ### 🛠 Tools Used
 - **EXCEL** – Data Cleaning and Exploratory Data Analysis (EDA)
 - **Power BI** – Data Modeling, DAX Calculations, and Dashboard Visualization
+### Process
+**Data Cleaning**
+
+Data cleaning was performed in Excel before analysis. Steps included:
+
+- Removing duplicate records
+
+- Checking for missing values
+
+- Formatting numeric columns
+
+- Standardizing column names
+
+- Creating calculated metrics such as
+1. **Avg Patient Paid** = Avg Total Payment Amount − Avg Medicare Payment Amount
+2. **Ratio Of payment By Medicare** = Avg Medicare Payment Amount/Avg Total Payment Amount
+3. **Ratio Of payment By Patient**=  Avg Patient Paid/Avg Total Payment Amount
