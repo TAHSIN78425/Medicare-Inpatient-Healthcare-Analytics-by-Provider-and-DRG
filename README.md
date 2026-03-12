@@ -18,6 +18,9 @@ The analysis focuses on identifying:
 - Differences between submitted charges and Medicare payments
 
 An interactive dashboard was created to visualize these insights.
-## 📂 Dataset
+### 📂 Dataset
 The <a href='https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service'>dataset</a> used in this project was obtained from the Centers for Medicare & Medicaid Services (CMS).  
 It provides detailed information about inpatient hospital services, including providers, DRG procedures, discharge counts, and Medicare payment amounts.
+### 🛠 Tools Used
+- **EXCEL** – Data Cleaning and Exploratory Data Analysis (EDA)
+- **Power BI** – Data Modeling, DAX Calculations, and Dashboard Visualization
