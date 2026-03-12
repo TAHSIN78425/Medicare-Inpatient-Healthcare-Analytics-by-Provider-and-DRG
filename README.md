@@ -25,7 +25,7 @@ It provides detailed information about inpatient hospital services, including pr
 - **EXCEL** – Data Cleaning and Exploratory Data Analysis (EDA)
 - **Power BI** – Data Modeling, DAX Calculations, and Dashboard Visualization
 ### Process
-**Data Cleaning**
+## 🧹 Data Cleaning
 
 Data cleaning was performed in Excel before analysis. Steps included:
 
@@ -41,3 +41,27 @@ Data cleaning was performed in Excel before analysis. Steps included:
 1. **Avg Patient Paid** = Avg Total Payment Amount − Avg Medicare Payment Amount
 2. **Ratio Of payment By Medicare** = Avg Medicare Payment Amount/Avg Total Payment Amount
 3. **Ratio Of payment By Patient**=  Avg Patient Paid/Avg Total Payment Amount
+
+## 🔎 Exploratory Data Analysis (EDA)
+
+During the exploratory data analysis phase, several key questions were investigated to understand healthcare cost patterns, provider performance, and payment distribution.
+
+The following analytical questions were explored:
+
+- **Most Expensive DRG**  
+  Identify the diagnosis-related group (DRG) with the highest submitted charge.
+
+- **Provider Handling the Most Expensive DRG**  
+  Determine which hospital/provider is associated with the most expensive DRG.
+
+- **Top 10 Providers by Total Submitted Charge**  
+  Analyze which hospitals submit the highest total charges for inpatient services.
+
+- **Top 10 States by Medicare Payment**  
+  Identify states receiving the highest total payments from Medicare.
+
+- **Top 10 States by Patient Payment**  
+  Analyze which states have the highest total out-of-pocket payments from patients.
+
+These analyses helped uncover patterns in healthcare costs, identify high-cost providers and procedures, and highlight regional differences in Medicare spending and patient financial burden.
+📈 Dashboard
